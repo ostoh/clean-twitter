@@ -1,0 +1,11 @@
+div[data-testid=primaryColumn],
+div[data-testid=tweet],
+div[data-testid=primaryColumn] > div > div:last-child,
+div[data-testid=primaryColumn] > div > div:last-child > div > div {
+	max-width: 800px !important;
+}
+
+div[data-testid=sidebarColumn],
+div[data-testid=DMDrawer] {
+	display: none !important;
+}
