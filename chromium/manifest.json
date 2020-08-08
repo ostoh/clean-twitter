@@ -10,18 +10,18 @@
    },
    "content_scripts":[
       {
-      	"run_at": "document_start",
-        "matches":[
-	       "https://twitter.com/*",
-	       "https://mobile.twitter.com/*"
-	    ],
-	    "css":[
-	       "override.css"
-	    ],
-	    "js":[
-	       "override.js",
-	       "background.js"
-	    ]
+         "run_at": "document_start",
+         "matches":[
+         "https://twitter.com/*",
+         "https://mobile.twitter.com/*"
+      ],
+       "css":[
+         "override.css"
+      ],
+       "js":[
+         "override.js",
+         "background.js"
+      ]
       }
    ]
 }
