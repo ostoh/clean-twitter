@@ -1,11 +1,47 @@
+body, html, * {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
 div[data-testid=primaryColumn],
 div[data-testid=tweet],
 div[data-testid=primaryColumn] > div > div:last-child,
 div[data-testid=primaryColumn] > div > div:last-child > div > div {
-	max-width: 800px !important;
+	max-width: 650px !important;
 }
 
-div[data-testid=sidebarColumn],
-div[data-testid=DMDrawer] {
+div[data-testid=DMDrawer],
+div[aria-label="Timeline: Trending now"],
+nav[aria-label=Footer],
+div[data-testid=sidebarColumn] {
 	display: none !important;
+	visibility: hidden !important;
+}
+
+a[data-testid="SideNav_NewTweet_Button"] {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+
+div[aria-label="Timeline: Your Home Timeline"] > div > div > div > div > article[role=article],
+div[aria-label="Timeline: Search timeline"] > div > div > div > div > article[role=article],
+div[aria-label="Timeline: Conversation"] > div > div > div > div > article[role=article],
+div[aria-label="Timeline: Retweeted"] > div > div > div > div > article[role=article] {
+	padding-left: .5em !important;
+	padding-right: .5em !important;
+	padding-top: .7em !important;
+	padding-bottom: .7em !important;
+}
+
+div[aria-label="Timeline: Your Home Timeline"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group],
+div[aria-label="Timeline: Search timeline"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group],
+div[aria-label="Timeline: Conversation"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group],
+div[aria-label="Timeline: Retweeted"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group] {
+	max-width: 650px !important;
+	padding-top: .5em !important;
+}
+
+nav[aria-label="Quote Tweet timelines"] > div[role=tablist] > div[role=presentation] {
+	max-width: 50% !important;
+	display: contents !important;
 }
