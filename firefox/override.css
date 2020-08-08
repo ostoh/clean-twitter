@@ -26,7 +26,8 @@ a[data-testid="SideNav_NewTweet_Button"] {
 div[aria-label="Timeline: Your Home Timeline"] > div > div > div > div > article[role=article],
 div[aria-label="Timeline: Search timeline"] > div > div > div > div > article[role=article],
 div[aria-label="Timeline: Conversation"] > div > div > div > div > article[role=article],
-div[aria-label="Timeline: Retweeted"] > div > div > div > div > article[role=article] {
+div[aria-label="Timeline: Retweeted"] > div > div > div > div > article[role=article],
+div[aria-label="Timeline: Bookmarks"] > div > div > div > div > article[role=article] {
 	padding-left: .5em !important;
 	padding-right: .5em !important;
 	padding-top: .7em !important;
@@ -36,7 +37,8 @@ div[aria-label="Timeline: Retweeted"] > div > div > div > div > article[role=art
 div[aria-label="Timeline: Your Home Timeline"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group],
 div[aria-label="Timeline: Search timeline"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group],
 div[aria-label="Timeline: Conversation"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group],
-div[aria-label="Timeline: Retweeted"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group] {
+div[aria-label="Timeline: Retweeted"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group],
+div[aria-label="Timeline: Bookmarks"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group] {
 	max-width: 650px !important;
 	padding-top: .5em !important;
 }
