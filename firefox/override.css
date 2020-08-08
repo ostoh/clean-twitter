@@ -23,27 +23,29 @@ a[data-testid="SideNav_NewTweet_Button"] {
 }
 
 
-div[aria-label="Timeline: Your Home Timeline"] > div > div > div > div > article[role=article],
-div[aria-label="Timeline: Search timeline"] > div > div > div > div > article[role=article],
-div[aria-label="Timeline: Conversation"] > div > div > div > div > article[role=article],
-div[aria-label="Timeline: Retweeted"] > div > div > div > div > article[role=article],
-div[aria-label="Timeline: Bookmarks"] > div > div > div > div > article[role=article] {
+article {
 	padding-left: .5em !important;
 	padding-right: .5em !important;
 	padding-top: .7em !important;
 	padding-bottom: .7em !important;
 }
 
-div[aria-label="Timeline: Your Home Timeline"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group],
-div[aria-label="Timeline: Search timeline"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group],
-div[aria-label="Timeline: Conversation"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group],
-div[aria-label="Timeline: Retweeted"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group],
-div[aria-label="Timeline: Bookmarks"] > div > div > div > div > article[role=article] > div > div > div > div > div > div > div[role=group] {
+article > div > div > div > div > div > div > div[role=group] {
 	max-width: 650px !important;
 	padding-top: .5em !important;
 }
 
 nav[aria-label="Quote Tweet timelines"] > div[role=tablist] > div[role=presentation] {
 	max-width: 50% !important;
+	display: contents !important;
+}
+
+div[data-testid=primaryColumn] > div > div > div > nav[role=navigation] > div[role=tablist] > div[role=presentation] {
+	max-width: 25% !important;
+	display: contents !important;
+}
+
+div[data-testid=primaryColumn] > div > div > div > div > nav[role=navigation] > div[role=tablist] > div[role=presentation] {
+	max-width: 20% !important;
 	display: contents !important;
 }
