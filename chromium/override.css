@@ -17,12 +17,6 @@ div[data-testid=sidebarColumn] {
 	visibility: hidden !important;
 }
 
-a[data-testid="SideNav_NewTweet_Button"] {
-	display: none !important;
-	visibility: hidden !important;
-}
-
-
 article {
 	padding-left: .5em !important;
 	padding-right: .5em !important;
