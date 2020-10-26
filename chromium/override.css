@@ -4,8 +4,10 @@ body, html, * {
 
 div[data-testid=primaryColumn],
 div[data-testid=tweet],
-div[data-testid=primaryColumn] > div > div:last-child,
-div[data-testid=primaryColumn] > div > div:last-child > div > div {
+div[data-testid=primaryColumn] > div > div,
+div[data-testid=primaryColumn] > div > div > div:last-child,
+div[data-testid=primaryColumn] > div > div > div:last-child > div,
+div[data-testid=primaryColumn] > div > div > div:last-child > div > div:first-child {
 	max-width: 650px !important;
 }
 
@@ -16,12 +18,6 @@ div[data-testid=sidebarColumn] {
 	display: none !important;
 	visibility: hidden !important;
 }
-
-a[data-testid="SideNav_NewTweet_Button"] {
-	display: none !important;
-	visibility: hidden !important;
-}
-
 
 article {
 	padding-left: .5em !important;
