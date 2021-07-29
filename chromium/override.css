@@ -8,7 +8,17 @@ div[data-testid=primaryColumn] > div > div,
 div[data-testid=primaryColumn] > div > div > div:last-child,
 div[data-testid=primaryColumn] > div > div > div:last-child > div,
 div[data-testid=primaryColumn] > div > div > div:last-child > div > div:first-child {
-	max-width: 650px !important;
+	max-width: 700px !important;
+}
+
+div[data-testid=tweet] {
+	padding-left: .35rem;
+	padding-right: .35rem;
+}
+
+div[data-testid=tweet] > div:nth-child(2) > div:last-child > div:last-child > div:first-child {
+	max-width: 700px !important;
+	margin-top: 22px;
 }
 
 div[data-testid=DMDrawer],
@@ -27,8 +37,8 @@ article {
 }
 
 article > div > div > div > div > div > div > div[role=group] {
-	max-width: 650px !important;
-	padding-top: .5em !important;
+	max-width: 700px !important;
+	padding-top: .5rem !important;
 }
 
 nav[aria-label="Quote Tweet timelines"] > div[role=tablist] > div[role=presentation] {
