@@ -1,7 +1,3 @@
-body, html, * {
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-}
-
 div[data-testid=primaryColumn],
 div[data-testid=tweet],
 div[data-testid=primaryColumn] > div > div,
@@ -12,13 +8,26 @@ div[data-testid=primaryColumn] > div > div > div:last-child > div > div:first-ch
 }
 
 div[data-testid=tweet] {
-	padding-left: .35rem;
-	padding-right: .35rem;
+	padding-left: .35rem !important;
+	padding-right: .35rem !important;
 }
 
-div[data-testid=tweet] > div:nth-child(2) > div:last-child > div:last-child > div:first-child {
+div[data-testid=tweet] > div:last-child > div:last-child > div:last-child > div:first-child {
 	max-width: 700px !important;
-	margin-top: 22px;
+	margin-bottom: 4px !important;
+}
+
+div[data-testid=tweet] > div:last-child > div:nth-child(2) > div > div {
+	margin-bottom: 4px !important;
+}
+
+div[aria-label="Timeline: Conversation"] > div > div > div > div > article > div > div > div > div:nth-child(3) > div > div {
+	margin-bottom: 6px !important;
+}
+
+div[data-testid=tweet] > div:last-child > div:last-child > div:nth-child(2) > div > div > div {
+	margin-top: 4px !important;
+	margin-bottom: 4px !important;
 }
 
 div[data-testid=DMDrawer],
