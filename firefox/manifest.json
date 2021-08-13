@@ -1,7 +1,7 @@
 {
    "name":"Clean Twitter",
    "short_name": "Clean Twitter",
-   "version":"1.0.5",
+   "version":"1.0.7",
    "description":"Remove clutter from twitter interface and make it lean and clean.",
    "homepage_url": "https://github.com/ostoh/clean-twitter",
    "manifest_version":2,
