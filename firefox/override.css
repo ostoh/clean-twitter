@@ -1,19 +1,10 @@
-div[data-testid=primaryColumn],
-div[data-testid=tweet],
-div[data-testid=primaryColumn] > div > div,
-div[data-testid=primaryColumn] > div > div > div:last-child,
-div[data-testid=primaryColumn] > div > div > div:last-child > div,
-div[data-testid=primaryColumn] > div > div > div:last-child > div > div:first-child {
-	max-width: 700px !important;
-}
-
 div[data-testid=tweet] {
 	padding-left: .35rem !important;
 	padding-right: .35rem !important;
 }
 
-div[data-testid=tweet] > div:last-child > div:last-child > div:last-child > div:first-child {
-	max-width: 700px !important;
+div[data-testid=tweet] > div > div > div > div:last-child > div:last-child div:last-child > div:first-child {
+	max-width:  100% !important;
 	margin-bottom: 4px !important;
 }
 
@@ -45,8 +36,11 @@ article {
 	padding-bottom: .7em !important;
 }
 
+article[data-testid=tweet] > div > div > div > div:last-child > div:last-child div:last-child > div:last-child > div[role=group] {
+	max-width:  100% !important;
+}
+
 article > div > div > div > div > div > div > div[role=group] {
-	max-width: 700px !important;
 	padding-top: .5rem !important;
 }
 
