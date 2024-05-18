@@ -1,7 +1,7 @@
 {
    "name":"Clean Twitter",
    "short_name": "Clean Twitter",
-   "version":"1.0.8",
+   "version":"1.0.9",
    "description":"Remove clutter from twitter interface and make it lean and clean.",
    "homepage_url": "https://github.com/ostoh/clean-twitter",
    "manifest_version":2,
@@ -12,8 +12,8 @@
       {
          "run_at": "document_start",
          "matches":[
-         "https://twitter.com/*",
-         "https://mobile.twitter.com/*"
+         "https://x.com/*",
+         "https://mobile.x.com/*"
       ],
        "css":[
          "override.css"
