@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; width: 220px; padding: 16px; background-color: #000000; color: #eff3f4; margin: 0; }
+        h2 { font-size: 16px; margin-top: 0; margin-bottom: 16px; text-align: center; border-bottom: 1px solid #2f3336; padding-bottom: 10px; color: #1d9bf0; }
+        .toggle-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; font-size: 14px; color: #e7e9ea; }
+        input[type="checkbox"] { appearance: none; width: 40px; height: 20px; background: #333639; border-radius: 20px; position: relative; cursor: pointer; outline: none; }
+        input[type="checkbox"]::before { content: ''; position: absolute; width: 16px; height: 16px; background: #ffffff; border-radius: 50%; top: 2px; left: 2px; transition: 0.2s; }
+        input[type="checkbox"]:checked { background: #1d9bf0; }
+        input[type="checkbox"]:checked::before { left: 22px; }
+        .footer { display: flex; justify-content: space-between; align-items: center; font-size: 11px; color: #71767b; margin-top: 16px; padding-top: 12px; border-top: 1px solid #2f3336; }
+        .footer a { color: #1d9bf0; text-decoration: none; transition: opacity 0.2s; }
+        .footer a:hover { text-decoration: underline; opacity: 0.8; }
+    </style>
+</head>
+<body>
+    <h2>Minimal X / Twitter</h2>
+    
+    <div class="toggle-row">
+        <span>Global Layout Override</span>
+        <input type="checkbox" id="toggle-global" checked>
+    </div>
+    <div class="toggle-row">
+        <span>Zen Mode (No Metrics)</span>
+        <input type="checkbox" id="toggle-zen">
+    </div>
+    <div class="toggle-row">
+        <span>Hide Media</span>
+        <input type="checkbox" id="toggle-media">
+    </div>
+
+    <div class="footer">
+        <span>By Austine Maina</span>
+        <a href="https://github.com/ostoh/clean-twitter/issues" target="_blank">Report Issue</a>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
