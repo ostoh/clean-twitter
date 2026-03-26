@@ -11,7 +11,7 @@ A lightweight, privacy-focused browser extension that removes visual clutter fro
 ## Core Features
 
 * **Global Layout Override:** Bypasses X's native responsive breakpoints to force a mathematical centred layout. This prevents eye strain on ultra-wide monitors and provides a focused reading column.
-* **Zen Mode:** Surgically removes addictive vanity metrics (likes, reposts, and view counts) using advanced CSS selectors, while perfectly preserving the interaction icons.
+* **Zen Mode:** Removes addictive vanity metrics (likes, reposts, and view counts) using advanced CSS selectors, while perfectly preserving the interaction icons.
 * **Hide Media:** Instantly toggles images, videos, and visual cards off for a pure, text-first reading experience.
 
 ## Installation

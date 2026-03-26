@@ -6,7 +6,7 @@
    "manifest_version": 3,
    "browser_specific_settings": {
       "gecko": {
-         "id": "minimalx@austinemaina.com",
+         "id": "{9986c0e2-9fd5-4d2f-a6a7-ae85d638b852}",
          "strict_min_version": "120.0"
       }
    },
